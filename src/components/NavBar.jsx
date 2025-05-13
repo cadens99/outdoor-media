@@ -27,13 +27,14 @@ export default function NavBar() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out ${
         scrolled
           ? 'bg-[#0f1b14]/90 shadow-md backdrop-blur border-b border-[#1a2a20]'
-          : 'bg-transparent'
+          : 'bg-transparent border-b border-transparent'
       }`}
     >
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center animate-fade-in">
         {/* Logo / Brand */}
         <Link to="/" className="text-lg font-bold font-serif tracking-wide hover:text-green-300 transition">
-          Outdoor Reach
+           
+          {/* Outdoor Reach */}
         </Link>
 
         {/* Desktop Links */}
