@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import SocialLinks from '../components/SocialLinks';
 import PhotoGallery from '../components/PhotoGallery';
 import ShotStories from '../components/ShotStories';
+import FieldLoadouts from '../components/FieldLoadouts';
 
 
 export default function Home() {
@@ -31,6 +32,11 @@ export default function Home() {
 
             {/* Shot Stories */}
             <ShotStories />
+
+            {/* Field Loadout - what we are rocking w now */}
+            <FieldLoadouts />
+
+           
 
             {/* Call-to-Action */}
             <section className="py-16 bg-[#1e2b23] text-center">
