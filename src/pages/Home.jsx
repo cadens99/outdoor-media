@@ -2,6 +2,7 @@ import NavBar from '../components/NavBar';
 import Hero from '../components/Hero';
 import SocialLinks from '../components/SocialLinks';
 import PhotoGallery from '../components/PhotoGallery';
+import ShotStories from '../components/ShotStories';
 
 
 export default function Home() {
@@ -28,12 +29,14 @@ export default function Home() {
             {/* Photo Gallery */}
             <PhotoGallery />
 
+            {/* Shot Stories */}
+            <ShotStories />
 
             {/* Call-to-Action */}
             <section className="py-16 bg-[#1e2b23] text-center">
                 <h2 className="text-3xl font-bold mb-4 font-serif">Like What You See?</h2>
                 <p className="text-gray-300 mb-6 max-w-xl mx-auto">
-                    I’m available for editorial work, backcountry media projects, and commercial outdoor campaigns.
+                    I'm available for editorial work, backcountry media projects, and commercial outdoor campaigns.
                 </p>
                 <a
                     href="/contact"
