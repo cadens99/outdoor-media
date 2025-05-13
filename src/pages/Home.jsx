@@ -4,9 +4,11 @@ import SocialLinks from '../components/SocialLinks';
 import PhotoGallery from '../components/PhotoGallery';
 import ShotStories from '../components/ShotStories';
 import FieldLoadouts from '../components/FieldLoadouts';
+import useScrollToHash from '../hooks/useScrollToHash';
 
 
 export default function Home() {
+    useScrollToHash();
     return (
         <div className="bg-[#0f1b14] text-white">
             {/* Navbar */}
@@ -28,7 +30,9 @@ export default function Home() {
             </section>
 
             {/* Photo Gallery */}
-            <PhotoGallery />
+            <section id="gallery" className="py-16 px-4 bg-[#0d1a13]">
+                <PhotoGallery />
+            </section>
 
             {/* Shot Stories */}
             <ShotStories />
