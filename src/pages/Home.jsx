@@ -29,10 +29,14 @@ export default function Home() {
                 </p>
             </section>
 
-            {/* Photo Gallery */}
-            <section id="gallery" className="py-16 px-4 bg-[#0d1a13]">
-                <PhotoGallery />
+            {/* Photo Gallery with the topo background */}
+            <section className="relative bg-[#0f1a13] py-24" id="gallery">
+                <div className="absolute inset-0 bg-[url('/images/texture-topo-dark.webp')] opacity-15 bg-repeat bg-center pointer-events-none" />
+                <div className="relative z-10 max-w-6xl mx-auto px-6">
+                    <PhotoGallery />
+                </div>
             </section>
+
 
             {/* Shot Stories */}
             <ShotStories />
@@ -50,7 +54,7 @@ export default function Home() {
                 </p>
                 <a
                     href="/contact"
-                    className="inline-block font-serif bg-white text-black font-semibold px-6 py-3 rounded-full shadow hover:bg-gray-200 transition"
+                    className="inline-block font-serif bg-white text-black font-semibold px-6 py-3 rounded-full shadow-lg transition duration-300 hover:bg-gray-200"
                 >
                     Contact Me
                 </a>

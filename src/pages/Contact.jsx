@@ -20,8 +20,8 @@ export default function Contact() {
             <Mail className="text-green-400 mt-1" size={20} />
             <p>
               <strong>Email:</strong>{' '}
-              <a href="mailto:example@example.com" className="text-green-400 hover:underline">
-                example@example.com
+              <a href="mailto:outdoormedia@gmail.com" className="text-green-400 hover:underline">
+                outdoormedia@gmail.com
               </a>
             </p>
           </div>
@@ -29,7 +29,7 @@ export default function Contact() {
           <div className="flex items-start gap-3">
             <MapPin className="text-green-400 mt-1" size={20} />
             <p>
-              <strong>Location:</strong> Bozeman, MT
+              <strong>Location:</strong> Bozeman, MT | USA
             </p>
           </div>
 

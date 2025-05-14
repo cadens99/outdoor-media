@@ -32,7 +32,7 @@ export default function PhotoGallery() {
   const getFallback = (src) => src.replace('.webp', '.jpg');
 
   return (
-    <section className="px-4 py-16 bg-[#0f1b14]">
+    <section>
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-white mb-12 font-serif">Gallery</h2>
 
