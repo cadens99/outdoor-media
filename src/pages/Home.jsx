@@ -31,11 +31,15 @@ export default function Home() {
 
             {/* Photo Gallery with the topo background */}
             <section className="relative bg-[#0f1a13] py-24" id="gallery">
-                <div className="absolute inset-0 bg-[url('/images/texture-topo-dark.webp')] opacity-15 bg-repeat bg-center pointer-events-none" />
+                {/* Make this layer lower in z-index */}
+                <div className="absolute inset-0 z-0 bg-[url('/images/texture-topo-dark.webp')] opacity-15 bg-repeat bg-center " />
+                
+                {/* Promote actual content above it */}
                 <div className="relative z-10 max-w-6xl mx-auto px-6">
                     <PhotoGallery />
-                </div>
+                </div>  
             </section>
+
 
 
             {/* Shot Stories */}

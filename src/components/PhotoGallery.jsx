@@ -55,10 +55,13 @@ export default function PhotoGallery() {
                       <img
                         src={jpgFallback}
                         alt={alt}
+                        onContextMenu={(e) => e.preventDefault()}
+                        onDragStart={(e) => e.preventDefault()}
+                        draggable="false"
+                        className="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
                         loading="lazy"
                         width="400"
                         height="300"
-                        className="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
                       />
                     </picture>
 
