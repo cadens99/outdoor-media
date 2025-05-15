@@ -71,7 +71,7 @@ export default function Home() {
                     <SocialLinks />
                 </div>
                 <p className="mt-6 text-sm text-gray-600 font-serif">
-                    &copy; {new Date().getFullYear()} Outdoor Reach Media
+                    &copy; {new Date().getFullYear()} Outdoor Reach Media - All Rights Reserved
                 </p>
             </footer>
         </div>
