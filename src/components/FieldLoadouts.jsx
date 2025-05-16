@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 
 const stats = [
   { label: "Elk Tagged", value: 34 },
-  { label: "Feet Shot", value: 1 },
+  { label: "Foot Shot", value: 1 },
   { label: "Miles Tracked", value: 186 },
   { label: "Camps Made", value: 21 },
 ];
